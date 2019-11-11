@@ -1,4 +1,4 @@
-package com.gift.compass.global;
+package com.jumpraw.compass.global;
 
 public enum State {
 

@@ -46,7 +46,7 @@
 
     </RelativeLayout>
 
-    <com.gift.compass.view.Compass
+    <com.jumpraw.compass.view.Compass
         android:layout_margin="40dp"
         app:degree_color="@android:color/white"
         app:show_degree_value="true"
@@ -57,8 +57,4 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true" />
 
-    <RelativeLayout android:id="@+id/banner"
-        android:layout_width="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_height="50dp"/>
 </RelativeLayout>

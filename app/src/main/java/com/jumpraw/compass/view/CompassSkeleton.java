@@ -1,4 +1,4 @@
-package com.gift.compass.view;
+package com.jumpraw.compass.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

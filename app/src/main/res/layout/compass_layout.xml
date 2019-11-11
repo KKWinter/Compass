@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gift.compass.view.CompassSkeleton xmlns:android="http://schemas.android.com/apk/res/android"
+<com.jumpraw.compass.view.CompassSkeleton xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/compass_skeleton"
@@ -27,4 +27,4 @@
 
     </RelativeLayout>
 
-</com.gift.compass.view.CompassSkeleton>
+</com.jumpraw.compass.view.CompassSkeleton>

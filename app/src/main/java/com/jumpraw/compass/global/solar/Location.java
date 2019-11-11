@@ -1,4 +1,4 @@
-package com.gift.compass.global.solar;
+package com.jumpraw.compass.global.solar;
 
 import java.math.BigDecimal;
 
