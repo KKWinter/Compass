@@ -1,4 +1,4 @@
-package com.jumpraw.compass.global.solar;
+package com.kkwinter.compass.global.solar;
 
 import java.util.Calendar;
 import java.util.TimeZone;

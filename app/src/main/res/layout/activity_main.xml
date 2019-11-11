@@ -46,7 +46,7 @@
 
     </RelativeLayout>
 
-    <com.jumpraw.compass.view.Compass
+    <com.kkwinter.compass.view.Compass
         android:layout_margin="40dp"
         app:degree_color="@android:color/white"
         app:show_degree_value="true"

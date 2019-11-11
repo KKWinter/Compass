@@ -1,4 +1,4 @@
-package com.jumpraw.compass.view;
+package com.kkwinter.compass.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,7 +19,7 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.jumpraw.compass.R;
+import com.kkwinter.compass.R;
 import java.text.DecimalFormat;
 
 import static android.content.Context.SENSOR_SERVICE;

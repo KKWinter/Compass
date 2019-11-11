@@ -1,4 +1,4 @@
-package com.jumpraw.compass;
+package com.kkwinter.compass;
 
 import android.Manifest;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.support.v4.app.ActivityCompat;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.jumpraw.compass.global.solar.SunriseSunsetCalculator;
+import com.kkwinter.compass.global.solar.SunriseSunsetCalculator;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -51,7 +51,7 @@ public class LocationGetter {
 
     private static Moment updateDayState(Location location) {
 
-        com.jumpraw.compass.global.solar.Location location1 = new com.jumpraw.compass.global.solar.Location(location.getLatitude(), location.getLongitude());
+        com.kkwinter.compass.global.solar.Location location1 = new com.kkwinter.compass.global.solar.Location(location.getLatitude(), location.getLongitude());
         SunriseSunsetCalculator sunriseSunsetCalculator = new SunriseSunsetCalculator(location1, Calendar.getInstance().getTimeZone());
 
         Date sunrise = sunriseSunsetCalculator.getOfficialSunriseCalendarForDate(Calendar.getInstance()).getTime();

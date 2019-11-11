@@ -1,4 +1,4 @@
-package com.jumpraw.compass;
+package com.kkwinter.compass;
 
 public enum Moment {
 

@@ -1,4 +1,4 @@
-package com.jumpraw.compass;
+package com.kkwinter.compass;
 
 import android.Manifest;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.jumpraw.compass.global.AppUtils;
+import com.kkwinter.compass.global.AppUtils;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

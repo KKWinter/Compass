@@ -1,4 +1,4 @@
-package com.jumpraw.compass;
+package com.kkwinter.compass;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
