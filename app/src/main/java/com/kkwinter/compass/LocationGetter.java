@@ -15,6 +15,13 @@ import java.util.Date;
 
 public class LocationGetter {
 
+    public enum Moment {
+        MORNING,
+        AFTERNOON,
+        EVEN
+    }
+
+
     /**
      * 获取经纬度以及当前时刻
      *

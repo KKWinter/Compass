@@ -54,7 +54,7 @@ public class SplashActivity extends AppCompatActivity {
     private void initialize() {
         LocationGetter.obtain(context, new LocationGetter.LocationListener() {
             @Override
-            public void onFetchCompleted(Moment moment, Location location) {
+            public void onFetchCompleted(LocationGetter.Moment moment, Location location) {
 
                 Intent intent = new Intent(context, MainActivity.class);
                 if (moment != null && location != null) {

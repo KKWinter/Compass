@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Bundle bundle = getIntent().getExtras();
         if (bundle != null && bundle.containsKey(MOMENT) && bundle.containsKey(LOCATION)) {
             Location location = bundle.getParcelable(LOCATION);
-            Moment moment = (Moment) bundle.getSerializable(MOMENT);
+            LocationGetter.Moment moment = (LocationGetter.Moment) bundle.getSerializable(MOMENT);
             showResult(moment, location);
         }
     }
@@ -62,14 +62,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initializeLocation() {
         LocationGetter.obtain(context, new LocationGetter.LocationListener() {
             @Override
-            public void onFetchCompleted(Moment moment, Location location) {
+            public void onFetchCompleted(LocationGetter.Moment moment, Location location) {
                 showResult(moment, location);
             }
         });
     }
 
 
-    private void showResult(Moment moment, Location location) {
+    private void showResult(LocationGetter.Moment moment, Location location) {
         if (location != null) {
             mPositionTextView.setVisibility(View.VISIBLE);
             mPositionTextView.setText(AppUtils.convert(location.getLatitude(), location.getLongitude()));
